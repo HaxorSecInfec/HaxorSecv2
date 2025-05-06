@@ -1,4 +1,4 @@
-<div align="center"><h1>HaxorsecV2</h1></div>
+<div align="center"><h1>HaxorSec Webshell</h1></div>
 <p align="center">
 	<img src="https://img.shields.io/badge/PHP-all-blue">
 	<img src="https://img.shields.io/badge/LICENSE-MIT-lime">
@@ -11,6 +11,7 @@ Summary
 HaxorSec WebShell is a next-generation, focused PHP webshell crafted for professionals who demand total control over their target environments. 
 Built with precision for red teamers, ethical hackers, and digital forensic analysts.
 
+* default password: Haxorsecv2
 <div align="center"><h1>Features</h1></div>
 
 <samp>
