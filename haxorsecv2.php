@@ -1605,7 +1605,7 @@ if ($_GET['don'] == true) {
                                 }
                                 ?>
                                 <div id="editModal" class="modal hidden">
-                                    <div class="modal-content cyber-border">
+                                    <div class="max-h-[60vh] cyber-border overflow-y-auto">
                                         <div class="flex justify-between items-center mb-4">
                                             <h3 class="text-lg font-bold cyber-font cyber-glow">Edit Record</h3>
                                             <button onclick="hideModal('editModal')" class="text-gray-400 hover:text-white">
@@ -1653,7 +1653,7 @@ if ($_GET['don'] == true) {
                                 </div>
                                 
                                 <div id="addModal" class="modal hidden">
-                                    <div class="modal-content cyber-border">
+                                    <div class="max-h-[60vh] cyber-border overflow-y-auto  modal-content cyber-border">
                                         <div class="flex justify-between items-center mb-4">
                                             <h3 class="text-lg font-bold cyber-font cyber-glow">Add New Record</h3>
                                             <button onclick="hideModal('addModal')" class="text-gray-400 hover:text-white">
@@ -1698,7 +1698,7 @@ if ($_GET['don'] == true) {
                                 echo '</div>';
                                 
                                 if (count($rows) > 0) {
-                                    echo '<div class="overflow-x-auto">';
+                                    echo '<div class="max-h-[60vh] cyber-border glass-effect overflow-y-auto">';
                                     echo '<table class="database-table">';
                                     echo '<thead>';
                                     echo '<tr>';
